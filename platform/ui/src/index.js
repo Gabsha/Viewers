@@ -93,7 +93,6 @@ export {
   ThumbnailTracked,
   ThumbnailList,
   ToolbarButton,
-  ContextMenuMeasurements,
   Tooltip,
   TooltipClipboard,
   Typography,
