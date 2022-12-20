@@ -76,7 +76,9 @@ Header.propTypes = {
   isReturnEnabled: PropTypes.bool,
   isSticky: PropTypes.bool,
   onClickReturnButton: PropTypes.func,
-  WhiteLabeling: PropTypes.element,
+  WhiteLabeling: PropTypes.shape({
+    createLogoComponentFn: PropTypes.func,
+  }),
 };
 
 Header.defaultProps = {
